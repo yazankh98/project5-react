@@ -1,0 +1,33 @@
+.AboutHero{
+    position: relative;
+}
+.AboutHero img{
+    width: 100%;
+}
+.AboutHero h1 {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    font-family: "Yesteryear", cursive;
+    font-weight: 800;
+    font-size: 7.5rem;
+    color:  #FFFFFF;
+}
+
+
+/* for mobile screen */
+
+@media screen and (max-width:992px) {
+    .AboutHero h1 {
+        font-size: 3.2rem;
+    }
+    .AboutHero {
+        height: 80vh;
+    }
+        .AboutHero img{
+            height: 80vh;
+            object-fit: cover;
+        }
+    }

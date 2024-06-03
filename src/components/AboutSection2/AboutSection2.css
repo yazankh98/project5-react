@@ -1,0 +1,34 @@
+.AboutSection2 img {
+    width: 100%;
+}
+.AboutSection2Img {
+    position: relative;
+}
+.AboutSection2Img h1{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    font-family: "Yesteryear", cursive;
+    font-weight: 800;
+    font-size: 7.5rem;
+    color:  #FFFFFF;
+}
+.AboutSection2  .AboutSection2Play {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    width: 7%;
+    z-index: 1;
+}
+@media screen and (max-width:992px) {
+    .AboutSection2Img h1 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+

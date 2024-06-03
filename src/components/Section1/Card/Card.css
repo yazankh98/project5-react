@@ -1,0 +1,32 @@
+.card{
+    width: 125px;
+}
+.card img{
+    margin-left: 20px;
+}
+.card h4{
+    padding: 10px 0;
+    text-align: center;
+    color: #1E1D4C;
+    ;
+    
+}
+.card p{
+    text-align: center;
+    line-height: 1.4rem;
+    color: #7D7D7D;
+}
+
+
+@media screen and (max-width:992px) {
+    .card p{
+        font-size: 0.8rem;
+    }
+    .card img {
+        width: 75%;
+    }
+    .card {
+        margin: 20px auto;
+        width: 35%;
+    }
+}

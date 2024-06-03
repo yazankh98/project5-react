@@ -1,0 +1,22 @@
+.Section1{
+    margin-top: 50px;
+
+}
+.Section1 .CATEGORY{
+    text-align: center;
+    color: #DF6951;
+}
+.Section1 h1 {
+    margin: 20px;
+    text-align: center;
+    color: #1E1D4C;
+}
+
+@media screen and (max-width:992px) {
+    .Section1 h1 {
+        font-size: 1.5rem;
+    }
+    .Section1 p {
+        font-size: 1.2rem;
+    }
+}

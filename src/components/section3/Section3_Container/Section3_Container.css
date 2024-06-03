@@ -1,0 +1,12 @@
+.Section3_Container{
+    display: flex;
+}
+
+
+@media screen and (max-width:992px) {
+    .Section3_Container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

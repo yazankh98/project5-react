@@ -1,0 +1,97 @@
+.NavBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+    width: 95vw;
+    position: absolute;
+    z-index: 3;
+}
+.NavBar .pages ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.NavBar .pages ul li  {
+    list-style: none;
+    color: white;
+}
+.NavBar .pages ul li  a {
+    color: white;
+    text-decoration: none;
+}
+.NavBar .pages ul li:hover{
+    border-bottom: 2px solid #DF6951;
+}
+.NavBar .pages  .getInTouch {
+    background-color: #DF6951;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+    padding: 10px 30px;
+    color: white;
+}
+.NavBar .menu  {
+    display: none;
+}
+
+.exit {
+    display: none;
+    background-color: #ffffff00;
+    border: none;
+    margin-top: 20px;
+    position: relative;
+    right: 35%;
+}
+.NavBarMobile {
+    display: none;
+}
+/* for mobile screen */
+
+@media screen and (max-width:992px) {
+    .NavBar{
+        display: none;
+    }
+    .NavBarMobile {
+        display: block;
+    }
+    .NavBar .pages {
+        display: none;
+    }
+    .NavBar .logo {
+        width: 30%;
+    }
+    .NavBar {
+        display: inline;
+    }
+    .NavBar .pages ul  , .NavBar .pages .getInTouch  {
+        flex-direction: column;
+    }
+    .NavBar .menu  {
+        display: inline;
+        border: none;
+        background-color: #ffffff00;
+    }
+    .menu {
+        position: absolute;
+        right: 0;
+    }
+    .pages {
+        position: absolute;
+        top: 1px;
+        right: -2%;
+        background-color: white;
+        height: 70vh;
+        border-radius: 10px;
+        display: none;
+    }
+
+    .NavBar .pages ul li a{
+        color: black;
+    }
+    .exit {
+        display: inline;
+    }
+
+    }

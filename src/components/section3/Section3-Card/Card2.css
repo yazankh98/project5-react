@@ -1,0 +1,65 @@
+.card2{
+    width: 30%;
+    margin: 20px;
+    background-color: #F9F9F9;
+}
+.Card2-img{
+    position: relative;
+}
+
+.swis{
+    position: absolute;
+    top: 85%;
+    left: 0;
+}
+.card2-img-bg{
+    width: 100%;
+}
+
+ .title{
+    width:85%;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.title-left i ,.title-left p , .title-right i , .title-right p{
+    color:  #7D7D7D;
+}
+.title-left{
+    display: flex;
+    gap: 10px;
+}
+.stars{
+    color: #FFBA0A;
+}
+.title-right{
+    display: flex;
+    gap: 10px;
+}
+.nameCountry{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.desc{
+    color: #5E6282;
+    margin-bottom: 20px;
+}
+.exploerNow{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #DF6951;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:992px) {
+.card2 {
+    width: 90%;
+    padding: 10px;
+}
+
+}

@@ -1,0 +1,22 @@
+.Section3{
+    margin-top: 50px;
+
+}
+.Section3 .trendy{
+    text-align: center;
+    color: #DF6951;
+}
+.Section3 h1 {
+    margin: 20px;
+    text-align: center;
+    color: #1E1D4C;
+}
+
+@media screen and (max-width:992px) {
+    .Section3 h1 {
+        font-size: 1.5rem;
+    }
+    .Section3 p {
+        font-size: 1.5rem;
+    }
+}

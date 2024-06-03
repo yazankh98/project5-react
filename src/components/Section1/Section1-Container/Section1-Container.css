@@ -1,0 +1,14 @@
+.Section1_Container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width:992px) {
+    .Section1_Container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,51 @@
+
+
+.PackagesSection1Container{
+    width: 25%;
+    background-color:#F5F3F3 ;
+    margin: 3.3vw;
+    padding: 9px;
+}
+.PackagesSection1Card img{
+    width: 100%;
+}
+.PackagesSection1Card {
+    margin: 0 auto;
+}
+.PackagesSection1Information {
+    background-color:#DF6951 ;
+    border-radius: 0 0 5px 5px;;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    
+    
+}
+
+.PackagesSection1Information p {
+    font-size: 0.810625rem;
+    color: white;
+}
+
+.PackagesSection1Title{
+    margin: 8px 0;
+    color: #181E4B ;
+}
+.PackagesSection1Des {
+    color: #181E4B ;
+    margin-bottom: 12px;
+}
+.Packages-Section1-Rate-And-Price {
+    display: flex;
+    gap: 20px;
+}
+.Packages-Section1-Rate-And-Price i {
+    color: #DF6951 ;
+}
+
+@media screen and (max-width:992px) {
+    .PackagesSection1Container {
+        width: 90%;
+        margin: 15px auto;
+    }
+    }
