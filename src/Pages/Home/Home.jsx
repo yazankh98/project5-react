@@ -14,7 +14,7 @@ import Section3_Container from './../../components/section3/Section3_Container/S
 const Home = () => {
     return (
         <div>
-            <NavBar img='/img/logo.png' menu={[{ title: "Home", path: '/' }, { title: "About", path: '/about' }, { title: "Packages", path: '/packages' }, { title: "Services", path: '/services' }]} btn="Get in Touch" />
+            <NavBar img='/img/logo.png' menu={[{ title: "Home", path: '/' }, { title: "About", path: '/about' }, { title: "Packages", path: '/packages' }]} btn="Get in Touch" />
             <Hero img='/img/hero.png' title={'No matter where you’re going to,we’ll take you there'} />
 
             <Section1 />

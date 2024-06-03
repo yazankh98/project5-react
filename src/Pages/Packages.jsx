@@ -9,7 +9,7 @@ import FooterCopyRight from './../components/footer/FooterCopyRight'
 const Packages = () => {
     return (
         <div>
-            <NavBar img='/img/logo.png' menu={[{ title: "Home", path: '/' }, { title: "About", path: '/about' }, { title: "Packages", path: '/packages' }, { title: "Services", path: '/services' }]} btn="Get in Touch" />
+            <NavBar img='/img/logo.png' menu={[{ title: "Home", path: '/' }, { title: "About", path: '/about' }, { title: "Packages", path: '/packages' }]} btn="Get in Touch" />
             <PackagesHero img='/img/PackagesHero.png' title={' Travel With Us'} />
 
             <PackagesSection1Container>
