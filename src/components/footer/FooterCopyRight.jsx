@@ -4,7 +4,8 @@ const FooterCopyRight = () => {
     return (
         <div>
             <div className="Footer-Copyright">
-                <p>Copyright @ Xpro 2023 All Rights Reserved.</p>
+                <p> Powered by <b>Eng.Yazan Khairi Al-anam ✌</b>
+                </p>
             </div>
         </div>
     )
